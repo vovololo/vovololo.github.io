@@ -1,0 +1,138 @@
+html{
+    background-color: #8f8f8f;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 29px;
+    line-height: 40px;
+}
+
+nav{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: smaller;
+    width:20%;
+    background-color: white;
+    padding: 10px;
+}
+
+main{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 76%;
+    padding: 10px;
+    background-color: white;
+}
+
+footer{
+    margin: 10px 0;
+    width: 98.4%;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+a:link,a:visited{
+    color:#565858;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#000000;
+}
+
+a{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+
+ul{
+    font-size: 17px;
+    line-height: normal;
+}
+
+footer a
+{
+    display: block;
+    padding: 0;
+    border: none;
+    border-radius: none;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
+
+span p{
+    font-size: 20px;
+}
+
+.test2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.information{
+    padding: 0 5px;
+    width: 73%;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #dddbdb;
+}
+
+.test1{
+    column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.other{
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.clearfix {
+    display: block;
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(253, 109, 109); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+  }
+  
+  #myBtn:hover,#myBtn2:hover {
+    background-color: rgb(255, 145, 145); /* Add a dark-grey background on hover */
+  }
+
+  #myBtn2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    top: 40%; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(253, 109, 109); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+  }
