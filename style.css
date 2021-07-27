@@ -1,10 +1,10 @@
 body{
     background-color: #8f8f8f;
     overflow-y: scroll;
-    overflow-x: hidden;
+    
     font-size: 29px;
     line-height: 40px;
-    width: 160%;
+    width: 100%;
 }
 
 nav{
@@ -20,7 +20,7 @@ nav{
 main{
     border: 1px solid black;
     border-radius: 4px;
-    
+    width:90%;
     padding: 10px;
     background-color: white;
 }
@@ -57,7 +57,7 @@ ul{
 
 footer a
 {
-    display: block;
+   
     padding: 0;
     border: none;
     border-radius: none;
@@ -138,4 +138,3 @@ span p{
     border-radius: 10px; /* Rounded corners */
     font-size: 12px; /* Increase font size */
   }
-
