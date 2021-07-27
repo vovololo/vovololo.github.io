@@ -4,6 +4,7 @@ body{
     overflow-x: hidden;
     font-size: 29px;
     line-height: 40px;
+    width: 160%;
 }
 
 nav{
@@ -26,7 +27,7 @@ main{
 
 footer{
     margin: 10px 0;
-    width: 98.4%;
+    
     display: block;
     background-color: white;
     border: 1px solid black;
@@ -137,3 +138,4 @@ span p{
     border-radius: 10px; /* Rounded corners */
     font-size: 12px; /* Increase font size */
   }
+
