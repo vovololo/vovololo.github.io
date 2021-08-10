@@ -25,7 +25,7 @@ main{
 
 footer{
     margin: 10px 0;
-    
+    overflow:hidden;
     display: block;
     background-color: white;
     border: 1px solid black;
@@ -69,6 +69,7 @@ img{
 span p{
     font-size: 20px;
 }
+
 
 .test2{
     display: flex;
