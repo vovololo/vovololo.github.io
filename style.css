@@ -33,6 +33,27 @@ footer{
     padding: 0 10px;
 }
 
+.imgChange:hover{
+    color: #000000;
+    cursor: pointer;
+}
+.imgChange{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.imgDefault{
+    width:unset;
+    height: unset;
+}
+
+.imgNewSize{
+    width: 100%;
+    height: 100%;
+}
+
 a:link,a:visited{
     color:#565858;
     text-decoration: none;
@@ -55,7 +76,6 @@ ul{
 
 footer a
 {
-   
     padding: 0;
     border: none;
     border-radius: none;

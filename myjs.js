@@ -36,3 +36,18 @@ myImage.onclick = function(){
     myImage.setAttribute ('src','image/HiizumiMaika1.jpg');
   }
 };
+
+var imgChange = document.getElementById("imgChange");
+imgChange.onclick = function(){
+  let myImgSrc = myImage.getAttribute('src');
+
+  if(myImgSrc === 'image/HiizumiMaika1.jpg'){
+    myImage.setAttribute ('src','image/HiizumiMaika2.jpg');
+  }
+  else if(myImgSrc === 'image/HiizumiMaika2.jpg'){
+    myImage.setAttribute ('src','image/HiizumiMaika3.jpg');
+  }
+  else if(myImgSrc === 'image/HiizumiMaika3.jpg'){
+    myImage.setAttribute ('src','image/HiizumiMaika1.jpg');
+  }
+};
